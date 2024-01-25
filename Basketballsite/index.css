@@ -1,0 +1,269 @@
+body ,html{
+
+    height: 100%;
+
+}
+
+#wrapper{
+
+    width: 960px;
+    margin: 0px auto;
+    border-bottom: 1px solid #968a8a;
+    padding: 8px 0px;
+
+
+}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+ background: #111;
+ font-family: "Open Sans",  Impact;
+}
+
+
+
+
+
+
+ul li{
+
+    list-style: none;
+
+}
+   
+#logo{
+
+    float: left;
+
+
+}
+
+#logo img{
+
+    height: 100%;
+    width: auto;
+
+}
+
+ul#main_menu{
+
+    float: right;
+
+}
+
+ul#main_menu li{
+
+    float: left;
+
+}
+
+ul#main_menu li a{
+
+    padding: 10px  20px;
+    text-decoration: none;
+    color: dimgray;
+    text-transform: uppercase;
+
+}
+
+body{
+
+    background-repeat: no-repeat;
+    background-image: url(img/background.jpg);
+    background-attachment: fixed;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    font-size: 23px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.clearfix{
+
+    clear: both;
+
+}
+
+@media screen and (min-width:600px){
+
+
+
+}
+/* Khu dành riêng cho our team*/
+#content{
+
+    width: 1000px;
+    height: auto;
+    margin: 0px auto;
+    padding: 12px 20px;
+
+}
+
+#content img{
+
+
+    height: 100%;
+    width: 100%;
+
+}
+
+/* Khu dành riêng cho our team*/
+
+/* Page Team Text Decoration */
+.area {
+    text-align: center;
+    font-size: 1.5em;
+    color: #fff;
+    letter-spacing: 0px;
+    font-weight: 1000;
+    text-transform: uppercase;
+    animation: blur .75s ease-out infinite;
+    text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
+    text-decoration: none;
+  }
+  
+ 
+  
+/* Page Team Text Decoration */
+  
+
+/* Khu dành cho contact site*/
+  
+#contact{
+
+    width: 960px;
+    margin: 0px auto;
+    height: 600px;
+    color:  gray;
+
+}
+
+#contact #phone{
+
+    margin-top: 0px 0px;
+    height: 50%;
+    width: 50%; 
+
+}
+
+#contact #phone img{
+
+   height: auto;
+   width: 15%; 
+   float: left;
+   margin-top: 15%;
+
+}
+#contact #phone #phone-content{
+
+    font-size: 40px;
+    width: 600px;
+    padding-top: 17%;
+    margin-left: 20%
+
+}
+
+
+#contact #email{
+
+    margin-top: 0px 0px;
+    height: 50%;
+    width: 50%; 
+ 
+}
+
+#contact #email img{
+
+   height: auto;
+   width: 15%; 
+   float: left;
+   margin-top: 0%;
+
+}
+#contact #email #email-content{
+
+    font-size: 40px;
+    width: 600px;
+    padding-top: 3%;
+    margin-left: 20%
+
+}
+
+
+/* Khu dành cho contact site*/
+
+/* khu dành riêng cho about us site */ 
+
+#about_us{
+
+    width: 75%;
+    margin: 0% auto;
+
+}
+
+#about_us h1{
+
+    color: blanchedalmond;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+
+}
+
+/* khu dành riêng cho about us site */ 
+
+/* khu dành riêng cho news*/
+
+#news{
+
+    position: relative;
+    text-align: center;
+    color: black;
+    width: 960px;
+    margin: 0px auto;
+    margin-top: 1%;
+
+}
+
+#news #blog img{
+
+    border-radius: 3%;
+
+}
+
+#news #blog #blog_content{
+
+    position: absolute;
+    top: 30%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 90%;
+
+}
+
+#news #blog #blog_content h3 a{
+
+    text-decoration: none;
+    color: red;
+}
+
+#news #blog #blog_image{
+
+    width: 960px;
+    margin: 0% auto;
+    
+
+}
+
+#news #blog #blog_image img{
+
+    width:60%;
+    position: absolute;
+    height: auto;
+    bottom: 5%;
+    transform: translate(-50%, -50%);
+    margin-left: 3%;    
+
+}
+
+/* khu dành riêng cho news*/
